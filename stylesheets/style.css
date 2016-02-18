@@ -5,6 +5,10 @@
 section{
 	height: 500px;
 }
+.seccionTexto{
+  padding: 20px;
+  text-align: center;
+}
 /*****FIN General*****/
 
 /*****Menu*****/
@@ -122,5 +126,33 @@ body{
 /******Que es******/
 #queEs{
 	background-color: black;
+  color:white;
+}
+#headerQueEs{
+
 }
 /******FIN Que es*****/
+/******Como funciona******/
+#comoFunciona{
+  background-color: orange;
+  color:white;
+}
+/******FIN como funciona******/
+/******Demo*******/
+#demo{
+  background-color: pink;
+  color:white;
+}
+/******FIN demo****/
+/******Sobre nosotros****/
+#sobreNosotros{
+  background-color: purple;
+  color:white;
+}
+/******FIN sobre nosotros****/
+/******Contacto*******/
+#contacto{
+  background-color: green;
+  color:white;
+}
+/******FIN contacto******/
