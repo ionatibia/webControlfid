@@ -9,6 +9,12 @@ section{
   padding: 20px;
   text-align: center;
 }
+.seccionMenu{
+  height: 80px;
+}
+ul{
+  list-style-type: none;
+}
 /*****FIN General*****/
 
 /*****Menu*****/
@@ -96,7 +102,7 @@ body{
 }
 #footer{
   width: 100%;
-  height: 80px;
+  height: auto;
   bottom: auto;
   left: 0px;
   background-color: #2E2E2E;
@@ -105,10 +111,41 @@ body{
   display: block;
   border-radius: 0px;
 }
-#footer p{
-  margin-left: 5%;
-  margin-top: 2%;
+#menuFooter a{
+  text-decoration: none;
+  color:#9d9d9d;
+  text-shadow: 0 -1px 0 rgba(0,0,0,.25);
+}
+#menuFooter a:hover{
+  color:white;
+}
+#menuFooter{
+  text-align: center;
+  list-style-type: none;
+  margin:auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+ul li{
+  margin-bottom: 10px;
+}
+ul{
+  padding: 0px;
+}
+.tituloFooter{
+  font-weight: bold;
+  text-decoration: underline;
+}
+#footer div{
   float: left;
+  width: 50%;
+  text-align: center;
+}
+#leftFooter{
+  padding: 50px;
+}
+#copy{
+  margin-bottom: 10%;
 }
 /*****FIN Footer*****/
 /*****Carousel*******/
@@ -121,6 +158,9 @@ body{
 .carousel{
 	margin-top: -20px;
 	z-index: 0;
+}
+.btn-primary{
+  background: black;
 }
 /*****FIN Carousel****/
 /******Que es******/
